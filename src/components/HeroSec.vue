@@ -23,9 +23,9 @@
 
 <style scoped>
 .logo {
-  width: 1000px;
-  height: 700px;
-  margin-top: 50px;
+  width: 700px;
+  height: 500px;
+  margin-top: 130px;
 }
 .all{
   display: flex;
