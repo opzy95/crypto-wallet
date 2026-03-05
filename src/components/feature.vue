@@ -6,7 +6,7 @@
         <h1 style="color: white; display:flex; justify-content: center; align-content: center;">
             The Most Trusted Platform for Digital Currency
         </h1>
-        <p style="display: flex; align-content: center; justify-content: center; color: rgb(208, 205, 247);">
+        <p style="display: flex; align-content: center; justify-content: center; color: rgb(208, 205, 247); width: 30rem; text-align: center; margin: 10px auto;">
             Discover powerful tools designed to help you securely buy, sell, and manage your crypto assets — trusted by traders, investors, and businesses worldwide.
         </p>
         <div class="all">

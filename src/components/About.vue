@@ -110,17 +110,18 @@ align-items: center;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 10px;
     margin-top: 20px;
     align-content: center;
     
 }
 .sign-up{
-    width: 23rem;
+    width: 15rem;
     color: rgb(208, 205, 247);
     font-size: 20px;
     align-content: center;
-    margin-left: 20px;
+    margin-left: 5px;
+    text-align: center;
 }
 .create{
     color: rgb(208, 205, 247);

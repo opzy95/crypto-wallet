@@ -10,7 +10,9 @@
     </p>
     <button>Get Started</button>
     </div>
+    <div class="img">
     <img class="logo" src="/src/asset/banner.png" alt="">
+    </div>
   </div>
     </div>
 </template>
@@ -23,9 +25,13 @@
 
 <style scoped>
 .logo {
-  width: 700px;
-  height: 500px;
-  margin-top: 130px;
+  width: 450px;
+  height: 300px;
+  margin-top: 90px;
+  margin-right: 40px;
+}
+.img{
+  width: 50%;
 }
 .all{
   display: flex;
@@ -43,18 +49,19 @@ button{
 .text{
   /* width: 0%; */
   margin-left: 50px;
-  margin-top: 150px;
+  margin-top: 90px;
+  width: 50%;
 }
 
 .text h1{
   color: white;
-  font-size: 75px;
-  width: 43rem;
+  font-size: 50px;
+  width: 28rem;
 
 }
 .text p{
-  width: 30rem;
-  font-size: 25px;
+  width: 20rem;
+  font-size: 20px;
   color: white;
 }
 
