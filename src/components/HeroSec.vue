@@ -64,5 +64,27 @@ button{
   font-size: 20px;
   color: white;
 }
+@media screen and (max-width: 700px) {
+  .all{
+    width: 100%;
+    display: block;
+  }
+  .text{
+    margin-top: 0;
+  }
+  .logo{
+    width: 290px;
+    height: 240px;
+    margin-top: 20px;
+  }
+  .text p{
+    width: 14rem;
+  }
+  .text h1{
+    width: 17rem;
+  }
+
+}
+  
 
 </style>

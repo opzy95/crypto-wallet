@@ -6,7 +6,7 @@
         <h1 style="color: white; display:flex; justify-content: center; align-content: center;">
             The Most Trusted Platform for Digital Currency
         </h1>
-        <p style="display: flex; align-content: center; justify-content: center; color: rgb(208, 205, 247); width: 30rem; text-align: center; margin: 10px auto;">
+        <p class="payy" style="display: flex; align-content: center; justify-content: center; color: rgb(208, 205, 247); width: 30rem; text-align: center; margin: 10px auto;">
             Discover powerful tools designed to help you securely buy, sell, and manage your crypto assets — trusted by traders, investors, and businesses worldwide.
         </p>
         <div class="all">
@@ -109,5 +109,40 @@
 }
 .secure p{
     color: rgb(208, 205, 247);
+}
+@media screen and (max-width: 700px){
+    h1{
+        width: 17rem;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin: 10px auto;
+    }
+    .payy{
+        width: 17rem !important;
+    }
+    .all{
+        display: block;
+    }
+    .secure{
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    .pay-one{
+        width: 13rem;
+        font-size: 30px;
+        text-align: center;
+    }
+    .pay{
+        margin: 2px auto;
+    }
+    .pay-two{
+        width: 13rem;
+    }
+    .pay-all{
+        justify-content: center;
+        align-content: center;
+        
+    }
 }
 </style>

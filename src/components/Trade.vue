@@ -1,6 +1,6 @@
 <template>
   <div class="all">
-    <img style="width: 500px" src="../asset/image/macbook.png" alt="" />
+    <img class="comp" style="width: 500px" src="../asset/image/macbook.png" alt="" />
     <div class="trade">
       <h1 style="font-size: 60px; width: 30rem; color: white;">Trade Anytime, Anywhere</h1>
       <p style="width: 30rem; font-size: 20px; color: rgb(126, 141, 191);">
@@ -9,10 +9,10 @@
         downtime.
       </p>
       <div class="image">
-        <img src="../asset/image/android.svg" alt="" />
-        <img src="../asset/image/appstore.svg" alt="" />
-        <img src="../asset/image/windows.svg" alt="" />
-        <img src="../asset/image/mac.svg" alt="" />
+        <img class="image-1" src="../asset/image/android.svg" alt="" />
+        <img  class="image-1" src="../asset/image/appstore.svg" alt="" />
+        <img class="image-1" src="../asset/image/windows.svg" alt="" />
+        <img class="image-1" src="../asset/image/mac.svg" alt="" />
       </div>
     </div>
   </div>
@@ -39,6 +39,33 @@ export default {}
     display: flex;
     margin-top: 10px;
     padding: 10px;
+}
+
+@media screen and (max-width: 700px){
+    .all{
+        display: block;
+    }
+    .comp{
+        width: 300px !important;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 20px;
+    }
+    .trade h1{
+        width: 20rem !important;
+        font-size: 20px;
+        text-align: center;
+    }
+    .trade p{
+        width: 18rem !important;
+        text-align: center;
+        margin-left: 13px;
+    }
+    .image-1{
+        width: 50px;
+        gap: px;
+    }
 }
 
 </style>

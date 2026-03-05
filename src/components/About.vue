@@ -92,7 +92,7 @@ align-items: center;
 }
 .part-one{
     width: 30%;
-    border: 3px solid black;
+    border: 1px solid black;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -126,6 +126,32 @@ align-items: center;
 .create{
     color: rgb(208, 205, 247);
     margin-left: 110px;
+}
+@media screen and (max-width: 800px){
+    .how{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .started{
+        width: 20rem;
+        text-align: center;
+    }
+    .part-one{
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-content: center;
+        margin-left: 2px;
+
+    }
+    .started-one{
+        width: 35rem;
+        /* margin-left: 1px; */
+    }
+    .part-onee{
+        /* width: 98%; */
+    }
 }
 
 
