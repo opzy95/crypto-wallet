@@ -6,11 +6,11 @@
       <ul class="nav-links">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/">About</router-link></li>
-        <li><router-link to="/exchange">Exchange</router-link></li>
-        <li><router-link to="/feature">Feature</router-link></li>
-        <li><router-link to="/faq">FAQ</router-link></li>
+        <li><router-link to="/">Exchange</router-link></li>
+        <li><router-link to="/">Feature</router-link></li>
+        <li><router-link to="/">FAQ</router-link></li>
         <li><router-link to="/Market">Market</router-link></li>
-        <li><router-link to="/contact">Contact Us</router-link></li>
+        <li><router-link to="/">Contact Us</router-link></li>
       </ul>
       <div class="nav-buttons">
         <button class="signup-btn">Sign Up</button>
@@ -18,7 +18,7 @@
       </div>
     </nav>
     <div class="rrr">
-      <img style="width: 140px; display: flex; flex-direction: row; gap: 20px" src="../asset/image/logo.svgfffff.svg" alt="Logo">
+      <!-- <img style="width: 140px; display: flex; flex-direction: row; gap: 20px" src="../asset/image/logo.svgfffff.svg" alt="Logo"> -->
 
     <div class="hamburger" @click="toggleMenu">
       <span v-if="!isOpen">☰</span>
